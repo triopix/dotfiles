@@ -39,5 +39,5 @@ export NVM_DIR="$HOME/.nvm"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 # HIST_STAMPS="yyyy-mm-dd" # Example history timestamp format
 
-# Switch to Fish shell (ensure Fish is installed in the Codespace)
-exec fish
+# # Switch to Fish shell (ensure Fish is installed in the Codespace)
+# exec fish

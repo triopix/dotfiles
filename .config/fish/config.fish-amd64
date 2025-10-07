@@ -1,0 +1,28 @@
+# !NOTE -> ARM64 M2-PRO-OSX architecture-specific configuration
+
+# ~/.config/fish/config.fish
+
+# Function to define your custom prompt
+function fish_prompt
+    # Set the color for the username@hostname part
+    set_color green
+    echo -n (whoami)@ (hostname) # Corrected: using 'hostname' directly
+    set_color normal
+
+    echo -n " "
+
+    # Set the color for the path
+    set_color blue
+    # Use pwd for the full current working directory path
+    echo -n (pwd)
+    set_color normal
+
+    echo -n "> "
+end
+
+# Remove the welcome greeting message
+set -U fish_greeting ""
+
+# Add any other custom aliases (abbreviations), functions, or environment variables here
+# Example alias:
+# abbr ll 'ls -alF'
