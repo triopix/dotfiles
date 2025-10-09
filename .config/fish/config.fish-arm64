@@ -1,6 +1,6 @@
 # !NOTE -> ARM64 M2-PRO-OSX architecture-specific configuration
 
-# ~/.config/fish/config.fish
+# alias for ~/.config/fish/config.fish on local
 
 # Function to define your custom prompt
 function fish_prompt
